@@ -24,7 +24,7 @@
         "datePublished": "2019-06-15 00:00:00 \x2b0000 UTC",
         "dateModified" : "2019-06-15 00:00:00 \x2b0000 UTC",
         "url" : "\/blog\/lockscreen-unchange-image\/",
-        "wordCount" : "148",
+        "wordCount" : "149",
         "keywords" : [ "Windows 10","Lock screen","Spotlight","Blog" ]
     }
     </script>
@@ -86,7 +86,7 @@
 
 <meta itemprop="datePublished" content="2019-06-15T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2019-06-15T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="148">
+<meta itemprop="wordCount" content="149">
 
 
 
@@ -682,14 +682,13 @@
 <ol>
 <li>Open <strong>Start</strong>.</li>
 <li>Search for <strong>PowerShell</strong>, right-click the top result, and select the <strong>Run as administrator</strong> option.</li>
-<li>Type the following command and press Enter:</li>
-</ol>
 
-<pre><code class="language-sh">Get-AppxPackage -allusers *ContentDeliveryManager* | foreach {Add-AppxPackage &quot;$($_.InstallLocation)\appxmanifest.xml&quot; -DisableDevelopmentMode -register }
-</code></pre>
+<li><p>Type the following command and press Enter</p>
 
-<ol>
-<li>Restart your computer</li>
+<pre><code class="language-sh hljs bash">Get-AppxPackage -allusers *ContentDeliveryManager* | foreach {Add-AppxPackage <span class="hljs-string">"<span class="hljs-variable">$($_.InstallLocation)</span>\appxmanifest.xml"</span> -DisableDevelopmentMode -register }    
+</code></pre></li>
+
+<li><p>Then restart your computer</p></li>
 </ol>
 
 <h2 id="step-3">Step 3</h2>

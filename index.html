@@ -301,6 +301,9 @@
 
 
   
+  
+    
+  
 
 
         
@@ -308,7 +311,7 @@
         
 
         <a href="/blog/creating-a-new-theme/" class="image featured">
-            <img src="/img//pic03.jpg" alt="">
+            <img src="/img/2014/09/pic03.jpg" alt="">
         </a>
     
 
@@ -347,7 +350,7 @@
         
 
         <a href="/blog/goisforlovers/" class="image featured">
-            <img src="/img//pic02.jpg" alt="">
+            <img src="/img/2014/04/pic02.jpg" alt="">
         </a>
     
 
@@ -376,6 +379,9 @@
 
 
   
+  
+    
+  
 
 
         
@@ -383,7 +389,7 @@
         
 
         <a href="/blog/hugoisforlovers/" class="image featured">
-            <img src="/img//pic01.jpg" alt="">
+            <img src="/img/2014/04/pic01.jpg" alt="">
         </a>
     
 
@@ -573,14 +579,13 @@
 <ol>
 <li>Open <strong>Start</strong>.</li>
 <li>Search for <strong>PowerShell</strong>, right-click the top result, and select the <strong>Run as administrator</strong> option.</li>
-<li>Type the following command and press Enter:</li>
-</ol>
 
-<pre><code class="language-sh">Get-AppxPackage -allusers *ContentDeliveryManager* | foreach {Add-AppxPackage &quot;$($_.InstallLocation)\appxmanifest.xml&quot; -DisableDevelopmentMode -register }
-</code></pre>
+<li><p>Type the following command and press Enter</p>
 
-<ol>
-<li>Restart your computer</li>
+<pre><code class="language-sh hljs bash">Get-AppxPackage -allusers *ContentDeliveryManager* | foreach {Add-AppxPackage <span class="hljs-string">"<span class="hljs-variable">$($_.InstallLocation)</span>\appxmanifest.xml"</span> -DisableDevelopmentMode -register }    
+</code></pre></li>
+
+<li><p>Then restart your computer</p></li>
 </ol>
 
 <h2 id="step-3">Step 3</h2>
