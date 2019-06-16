@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows 10 on Hugo Future Imperfect</title>
+    <link>/tags/windows-10/</link>
+    <description>Recent content in Windows 10 on Hugo Future Imperfect</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/windows-10/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Unchange spotlight image in windows lock screen</title>
+      <link>/blog/lockscreen-unchange-image/</link>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/lockscreen-unchange-image/</guid>
+      <description>Symptom The Spotlight image unchange in Windows 10 lock screen
+Solution Reset Windows Spotlight feature on Windows 10
+Step 1 Disabling Spotlight feature To disable Windows Spotlight on Windows 10 by:
+ Open Settings Click on Personalization Click on Lock screen Use the Background drop-down menu, and select the Picture or Slideshow option.   Step 2 Resetting Spotlight settings To Reset the spotlight feature with PowerShell commands by:</description>
+    </item>
+    
+  </channel>
+</rss>
